@@ -1,0 +1,84 @@
+.section-title>p{
+opacity: 0.6;
+}
+a{
+    text-decoration: none;
+}
+.img-carousel {
+    filter: grayscale(100%);
+    opacity: 90%;
+    width: 100%;
+    height: 550px;
+    object-fit: cover;
+    position: relative;
+    
+}
+
+.img-pixelized{
+    background-image: url(/starter-code/img/overlay.png);
+    width: 100%;
+    height: 550px;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+.widgets{
+    background-color: #ed564b;
+    color: white;
+}
+.widgets1{
+    padding: 30px 30px ;
+}
+.bi{
+    padding: 15px;
+    border: 4px solid white;
+    border-radius: 60px;
+}
+.icon{
+    margin-top:20px
+}
+.widgets1 h3{
+    margin-top: 40px;
+}
+.border{
+    border-color: #ed564b;
+}
+.project{
+
+    margin-top: 50px;
+}
+h3 a{
+    color:black;
+}
+.hometa a{
+       color:red;
+}
+.bottom{
+    color: white;
+    padding-top: 50px;
+}
+.bottom h3{
+    padding-bottom: 25px;
+}
+.bottom .col-sm-3 ul li{
+    margin: 10px;
+    opacity:0.7
+}
+.bottom .col-sm-3 p{
+    margin: 10px;
+    opacity:0.7
+}
+.fcred{
+    margin: 20px 0px 20px 0px;
+}
+.carousel-caption h1,p,a{
+    color: white;
+}
+
+.carousel-caption p{
+font-size:1.3em;
+} 
+.article p{
+    color: black;
+opacity: 0.7;
+}
